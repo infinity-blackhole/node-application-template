@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node dist/app.js",
+    "start:watch": "nodemon --watch dist dist/app.js",
+    "check": "yarn tsc",
+    "build": "swc src --config-file swc.config.json --out-dir dist",
+    "build:watch": "npm run build -- --watch",
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll",
+    "format": "prettier -w .",
+    "format:watch": "npm run format -- -w"
+  }
+}

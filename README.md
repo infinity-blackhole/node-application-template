@@ -1,6 +1,4 @@
-# node-template-project
-
-
+# Node Template Project
 
 ## Getting started
 

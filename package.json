@@ -1,0 +1,39 @@
+{
+  "name": "node-template-project",
+  "version": "0.1.0",
+  "description": "Node template project",
+  "main": "dist/index.js",
+  "repository": "git@gitlab.com:Sfeir/sfeir-par/internals/templates/back-templates/node-template-project.git",
+  "author": {
+    "email": "william.phetsinorath@shikanime.studio",
+    "name": "William Phetsinorath",
+    "url": "https://github.com/shikanime"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^17.7"
+  },
+  "scripts": {
+    "start": "node dist/app.js",
+    "start:watch": "nodemon --watch dist dist/app.js",
+    "check": "npm run tsc",
+    "build": "swc src --config-file swc.config.json --out-dir dist",
+    "build:watch": "npm run build -- --watch",
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll",
+    "format": "prettier -w .",
+    "format:watch": "npm run format -- -w"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.146",
+    "@swc/jest": "^0.2.20",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.21",
+    "chokidar": "^3.5.3",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}

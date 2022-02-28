@@ -1,4 +1,6 @@
 {
+  description = "My Hello World";
+
   inputs.nixpkgs.url = "github:nixos/nixpkgs/release-21.11";
 
   outputs = { self, nixpkgs }: {

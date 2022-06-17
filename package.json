@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "^17.7"
+    "node": "^16.15"
   },
   "scripts": {
     "start": "node dist/app.js",
@@ -28,8 +28,8 @@
     "@swc/cli": "^0.1.55",
     "@swc/core": "^1.2.146",
     "@swc/jest": "^0.2.20",
-    "@types/jest": "^27.4.1",
-    "@types/node": "^17.0.21",
+    "@types/jest": "^28.1.2",
+    "@types/node": "^18.0.0",
     "chokidar": "^3.5.3",
     "jest": "^28.1.0",
     "nodemon": "^2.0.15",

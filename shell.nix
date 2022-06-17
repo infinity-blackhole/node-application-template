@@ -3,6 +3,6 @@
 pkgs.mkShell {
   buildInputs = [
     pkgs.docker
-    pkgs.nodejs-17_x
+    pkgs.nodejs
   ];
 }

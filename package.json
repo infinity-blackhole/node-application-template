@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Node template project",
   "main": "dist/index.js",
-  "repository": "git@gitlab.com:Sfeir/sfeir-par/internals/templates/back-templates/node-template-project.git",
+  "repository": "git@gitlab.com:infinity-blackhole/node-root-commit.git",
   "author": {
     "email": "william.phetsinorath@shikanime.studio",
     "name": "William Phetsinorath",

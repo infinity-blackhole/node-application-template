@@ -172,3 +172,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Devenv
+.devenv
+.pre-commit-config.yaml
